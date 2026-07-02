@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maheswary Vangaru — UI/UX Designer Portfolio</title>
+  <meta name="description" content="Dark premium UI/UX designer portfolio website for Maheswary Vangaru, UI/UX Designer based in Hyderabad." />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div class="preloader" id="preloader">
+    <div class="loader-logo">Maheswary</div>
+    <div class="loader-line"><span></span></div>
+    <p>loading portfolio...</p>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <a href="#home" class="logo" aria-label="Maheswary portfolio home">
+      <span>MV</span> Maheswary
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#live-projects">Live Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-button" id="menuOpen" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <small>Menu</small>
+    </button>
+  </header>
+
+  <!-- Offcanvas Menu -->
+  <aside class="side-menu" id="sideMenu" aria-hidden="true">
+    <button class="menu-close" id="menuClose" aria-label="Close menu">Close ×</button>
+    <div class="side-menu-inner">
+      <p class="overline">Navigation</p>
+      <a href="#home" class="side-link">Home</a>
+      <a href="#about" class="side-link">About</a>
+      <a href="#services" class="side-link">Skills</a>
+      <a href="#work" class="side-link">Portfolio</a>
+      <a href="#live-projects" class="side-link">Live Projects</a>
+      <a href="#experience" class="side-link">Experience</a>
+      <a href="#contact" class="side-link">Contact</a>
+      <div class="side-contact">
+        <p>Hyderabad, Telangana</p>
+        <p>+91 9182276898</p>
+        <p>mahimaheswari0520@gmail.com</p>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Hero Slider -->
+    <section class="hero" id="home" aria-label="Maheswary UI UX portfolio showcase">
+      <div class="hero-slider" id="heroSlider">
+        <article class="slide active" style="--bg:url('https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1800&q=80')">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <span class="tag">UI/UX Designer</span>
+            <h1>Maheswary Vangaru</h1>
+            <p>Creative and detail-oriented UI/UX Designer designing user-centric digital products, responsive interfaces, wireframes, and prototypes.</p>
+            <div class="hero-actions">
+              <a href="#work" class="btn magnetic">View Work</a>
+              <a href="assets/resume/MAHESWARY-VANGARU-Resume.pdf" class="btn btn-outline magnetic" target="_blank" rel="noopener">Download Resume</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="--bg:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=80')">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <span class="tag">Healthcare Design</span>
+            <h1>Patient-friendly digital experiences.</h1>
+            <p>Currently designing hospital websites, patient portal interfaces, mobile app screens, banners, posters, and healthcare visual systems.</p>
+            <a href="#experience" class="btn magnetic">My Experience</a>
+          </div>
+        </article>
+
+        <article class="slide" style="--bg:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=80')">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <span class="tag">Design Process</span>
+            <h1>Research. Prototype. Improve.</h1>
+            <p>I focus on clean visual hierarchy, accessibility, usability testing, responsive design, and modern UI trends.</p>
+            <a href="#services" class="btn magnetic">Explore Skills</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="hero-controls">
+        <button id="prevSlide" aria-label="Previous slide">Prev</button>
+        <div class="slide-numbers"><span id="currentSlide">01</span><em>/</em><span>03</span></div>
+        <button id="nextSlide" aria-label="Next slide">Next</button>
+      </div>
+
+      <div class="scroll-down">
+        <span></span>
+        <p>Scroll</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="section-kicker reveal">
+          <span>01</span>
+          <p>Hello, I am</p>
+        </div>
+
+        <div class="about-copy reveal">
+          <h2>A UI/UX Designer building clear, modern and user-friendly digital interfaces.</h2>
+          <p>
+            I am a creative UI/UX Designer from Hyderabad with hands-on experience in user behavior study,
+            wireframing, prototyping, responsive web and mobile design, interaction design, and visual design.
+            I enjoy converting ideas into clean screens that are easy to understand and useful for real users.
+          </p>
+          <div class="signature">
+            <strong>Maheswary Vangaru</strong>
+            <small>UI/UX Designer • Hyderabad, Telangana</small>
+          </div>
+        </div>
+
+        <div class="experience-card reveal">
+          <h3>2</h3>
+          <p>Year of<br>design experience</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Skills -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>My Skills</span>
+          <h2>Design skills for digital products</h2>
+        </div>
+
+        <div class="skills-marquee reveal" aria-label="Scrollable design skills">
+          <div class="skills-track">
+            <span>UI/UX Design</span>
+            <span>Wireframing & Prototyping</span>
+            <span>User Research & User Testing</span>
+            <span>User Personas & Journey Mapping</span>
+            <span>Responsive Web & Mobile Design</span>
+            <span>Interaction Design</span>
+            <span>Visual Design (Typography, Colour Theory, Layout)</span>
+            <span>UI/UX Design</span>
+            <span>Wireframing & Prototyping</span>
+            <span>User Research & User Testing</span>
+            <span>User Personas & Journey Mapping</span>
+            <span>Responsive Web & Mobile Design</span>
+            <span>Interaction Design</span>
+            <span>Visual Design (Typography, Colour Theory, Layout)</span>
+          </div>
+        </div>
+
+        <div class="service-grid skill-card-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">01</div>
+            <h3>UI/UX Design</h3>
+            <p>Designing clean, user-friendly web and mobile interfaces with strong visual hierarchy and modern UI patterns.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">02</div>
+            <h3>Wireframing & Prototyping</h3>
+            <p>Creating low-fidelity and high-fidelity wireframes, clickable prototypes, screen flows, and interaction previews.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">03</div>
+            <h3>User Research & Testing</h3>
+            <p>Understanding user needs, collecting feedback, and improving designs through usability testing and iteration.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">04</div>
+            <h3>User Personas & Journey Mapping</h3>
+            <p>Building clear personas and journey maps to understand user goals, pain points, and better product flows.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">05</div>
+            <h3>Responsive Web & Mobile Design</h3>
+            <p>Designing responsive layouts for desktop, tablet, and mobile with accessibility and implementation in mind.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">06</div>
+            <h3>Interaction Design</h3>
+            <p>Planning smooth user interactions, navigation patterns, micro-interactions, and practical interface behavior.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">07</div>
+            <h3>Visual Design</h3>
+            <p>Applying typography, colour theory, spacing, layout, and branding to create polished and readable interfaces.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Block -->
+    <section class="feature-block">
+      <!-- <div class="feature-image reveal"></div> -->
+      <img src="assets/images/image-01.jpg" />
+      <div class="feature-content reveal">
+        <span class="tag">Healthcare UI</span>
+        <h2>Designing better hospital experiences.</h2>
+        <p>
+          My current work includes hospital website pages, patient portal interfaces, mobile app screens,
+          doctor profile designs, banners, blog images, web story creatives, GMB posters, and healthcare campaign visuals.
+        </p>
+        <a href="#contact" class="text-link">Contact Me →</a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section portfolio" id="work">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Selected Work</span>
+          <h2>Portfolio projects and design areas</h2>
+        </div>
+
+        <div class="work-grid">
+          <a class="work-card tall reveal" href="#contact">
+            <img src="assets/images/image-02.png" alt="Healthcare UI system project" />
+            <div class="work-info">
+              <span>Healthcare UI</span>
+              <h3>Hospital Website & App UI</h3>
+              <p>View Details</p>
+            </div>
+          </a>
+
+          <a class="work-card reveal" href="#contact">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Dashboard interface project" />
+            <div class="work-info">
+              <span>Dashboard</span>
+              <h3>Interactive Dashboard Designs</h3>
+              <p>View Details</p>
+            </div>
+          </a>
+
+          <a class="work-card reveal" href="#contact">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=900&q=80" alt="Mobile app interface project" />
+            <div class="work-info">
+              <span>Mobile UI</span>
+              <h3>User-centered App Interfaces</h3>
+              <p>View Details</p>
+            </div>
+          </a>
+
+          <a class="work-card wide reveal" href="#contact">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80" alt="Banners and promotional poster design" />
+            <div class="work-info">
+              <span>Visual Design</span>
+              <h3>Banners, Posters & Web Story Creatives</h3>
+              <p>View Details</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Projects -->
+    <section class="section live-projects" id="live-projects">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Live Projects</span>
+          <h2>Real website pages I worked on</h2>
+        </div>
+
+        <div class="live-intro reveal">
+          <p>Here are live Medicover Hospitals project pages connected to my healthcare UI, web page, doctor profile, gallery, success stories, and fertility design work.</p>
+        </div>
+
+        <div class="live-project-grid">
+          <a class="live-project-card reveal" href="https://www.medicoverhospitals.in/doctors/" target="_blank" rel="noopener">
+            <img src="assets/images/image-04.png" alt="Doctors listing page preview" />
+            <div class="live-project-content">
+              <span>Doctor Listing</span>
+              <h3>Doctors Page</h3>
+              <p>Doctor search and listing experience for users to explore specialists and hospital doctors.</p>
+              <strong>View Live Website →</strong>
+            </div>
+          </a>
+
+          <a class="live-project-card reveal" href="https://www.medicoverhospitals.in/doctors/dr-k-satya-rao" target="_blank" rel="noopener">
+            <img src="assets/images/image-05.png" alt="Doctor profile page preview" />
+            <div class="live-project-content">
+              <span>Doctor Profile</span>
+              <h3>Dr. K. Satya Rao Profile</h3>
+              <p>Profile page layout focused on doctor details, expertise, and patient-friendly information flow.</p>
+              <strong>View Live Website →</strong>
+            </div>
+          </a>
+
+          <a class="live-project-card reveal" href="https://www.medicoverhospitals.in/success-stories/" target="_blank" rel="noopener">
+            <img src="assets/images/image-06.png" alt="Success stories page preview" />
+            <div class="live-project-content">
+              <span>Patient Stories</span>
+              <h3>Success Stories</h3>
+              <p>Healthcare storytelling page design to present patient experiences in a clear and engaging way.</p>
+              <strong>View Live Website →</strong>
+            </div>
+          </a>
+
+          <a class="live-project-card reveal" href="http://medicoverhospitals.in/gallery/" target="_blank" rel="noopener">
+            <img src="assets/images/image-09.png" alt="Hospital gallery page preview" />
+            <div class="live-project-content">
+              <span>Gallery</span>
+              <h3>Hospital Gallery</h3>
+              <p>Visual gallery page for hospital images, facilities, events, and brand presentation.</p>
+              <strong>View Live Website →</strong>
+            </div>
+          </a>
+
+          <a class="live-project-card reveal" href="https://www.medicoverhospitals.in/fertility/clinics/hyderabad/" target="_blank" rel="noopener">
+            <img src="assets/images/image-07.png" alt="Hyderabad fertility clinic page preview" />
+            <div class="live-project-content">
+              <span>Fertility Clinic</span>
+              <h3>Hyderabad Clinic Page</h3>
+              <p>Location-focused fertility clinic page with service information and conversion-friendly structure.</p>
+              <strong>View Live Website →</strong>
+            </div>
+          </a>
+
+          <a class="live-project-card reveal" href="https://www.medicoverhospitals.in/fertility/" target="_blank" rel="noopener">
+            <img src="assets/images/image-08.png" alt="Fertility website page preview" />
+            <div class="live-project-content">
+              <span>Fertility Website</span>
+              <h3>Medicover Fertility</h3>
+              <p>Healthcare service website experience for fertility awareness, treatments, doctors, and enquiries.</p>
+              <strong>View Live Website →</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="case-study section" id="experience">
+      <div class="container case-grid">
+        <div class="case-number reveal">02</div>
+        <div class="case-copy reveal">
+          <h2>Professional Experience.</h2>
+          <div class="timeline-list">
+            <div class="timeline-item">
+              <span>Current</span>
+              <h4>UI/UX Designer — Medicover Corporate</h4>
+              <p>
+                Designing hospital website, patient portal, and mobile app interfaces. Working with developers and stakeholders to create accessible, responsive, and patient-friendly healthcare solutions.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <span>2024</span>
+              <h4>UI/UX Design Intern — Smart Bridge Educational Services</h4>
+              <p>
+                Designed wireframes, prototypes, responsive dashboard interfaces, landing pages, and consistent visual systems based on feedback.
+              </p>
+            </div>
+          </div>
+          <a href="assets/resume/MAHESWARY-VANGARU-Resume.pdf" target="_blank" rel="noopener" class="btn btn-outline">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="section clients">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Tools</span>
+          <h2>Tools I use for design</h2>
+        </div>
+
+        <div class="client-grid reveal">
+          <div>Figma</div>
+          <div>Photoshop</div>
+          <div>Canva</div>
+          <div>Figma Motion</div>
+          <div>Prototyping</div>
+          <div>Responsive UI</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Education</span>
+          <h2>Academic background</h2>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card reveal">
+            <span>2024</span>
+            <h3>Bachelor of Science — Computers</h3>
+            <p>Kakatiya University</p>
+          </article>
+          <article class="education-card reveal">
+            <span>2019</span>
+            <h3>Intermediate — MPC</h3>
+            <p>Board of Intermediate Education</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+      <div class="container cta-inner reveal">
+        <h2>Have a design project or UI/UX role? Let’s connect.</h2>
+        <div class="cta-buttons">
+          <a href="mailto:mahimaheswari0520@gmail.com" class="btn">Email Me</a>
+          <a href="tel:+919182276898" class="btn btn-dark">Call Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo"><span>MV</span> Maheswary</a>
+        <p>UI/UX Designer focused on healthcare interfaces, responsive web and mobile design, wireframes, prototypes, and visual communication.</p>
+      </div>
+
+      <div>
+        <h4>Navigation</h4>
+        <a href="#work">Portfolio</a>
+        <a href="#live-projects">Live Projects</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Call : +91 9182276898</p>
+        <p>Email : mahimaheswari0520@gmail.com</p>
+      </div>
+
+      <div>
+        <h4>Address</h4>
+        <p>Hyderabad, Telangana<br>India</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> Maheswary Vangaru. Designed portfolio for GitHub Pages.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

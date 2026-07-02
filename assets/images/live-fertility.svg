@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Fertility Website project preview">
+  <defs>
+    <radialGradient id="g" cx="22%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#3a2d18"/>
+      <stop offset="42%" stop-color="#151515"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8bf6a" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".25"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#g)"/>
+  <circle cx="990" cy="120" r="260" fill="#e8bf6a" opacity=".07"/>
+  <circle cx="140" cy="650" r="220" fill="#ffffff" opacity=".04"/>
+  <rect x="54" y="54" width="1092" height="652" rx="38" fill="#121212" stroke="#2d2d2d" filter="url(#shadow)"/>
+  <rect x="78" y="84" width="1044" height="72" rx="24" fill="#181818" stroke="#2d2d2d"/>
+  <circle cx="118" cy="120" r="10" fill="#e8bf6a"/>
+  <circle cx="150" cy="120" r="10" fill="#8f8f8f" opacity=".5"/>
+  <circle cx="182" cy="120" r="10" fill="#ffffff" opacity=".2"/>
+  <rect x="804" y="105" width="110" height="30" rx="15" fill="#252525"/>
+  <rect x="932" y="105" width="74" height="30" rx="15" fill="#252525"/>
+  <rect x="1024" y="105" width="64" height="30" rx="15" fill="#e8bf6a"/>
+
+  <text x="78" y="232" font-family="Inter, Arial" font-size="22" font-weight="800" letter-spacing="5" fill="#e8bf6a">FERTILITY</text>
+  <text x="78" y="305" font-family="Inter, Arial" font-size="66" font-weight="900" fill="#ffffff">Fertility Website</text>
+  <text x="78" y="352" font-family="Inter, Arial" font-size="25" font-weight="500" fill="#a7a7a7">Fertility service landing pages</text>
+  <rect x="78" y="386" width="260" height="52" rx="26" fill="none" stroke="#e8bf6a"/>
+  <text x="112" y="419" font-family="Inter, Arial" font-size="16" font-weight="900" letter-spacing="2" fill="#ffffff">LIVE PROJECT</text>
+  <rect x="78" y="452" width="420" height="42" rx="21" fill="#181818" stroke="#343434"/>
+        <circle cx="105" cy="473" r="7" fill="#e8bf6a"/>
+        <text x="126" y="479" font-family="Inter, Arial" font-size="18" font-weight="700" fill="#ffffff">Treatments</text><rect x="78" y="512" width="420" height="42" rx="21" fill="#181818" stroke="#343434"/>
+        <circle cx="105" cy="533" r="7" fill="#e8bf6a"/>
+        <text x="126" y="539" font-family="Inter, Arial" font-size="18" font-weight="700" fill="#ffffff">Doctors</text><rect x="78" y="572" width="420" height="42" rx="21" fill="#181818" stroke="#343434"/>
+        <circle cx="105" cy="593" r="7" fill="#e8bf6a"/>
+        <text x="126" y="599" font-family="Inter, Arial" font-size="18" font-weight="700" fill="#ffffff">Contact flow</text>
+
+  <rect x="575" y="210" width="492" height="405" rx="32" fill="#181818" stroke="#343434"/>
+  <rect x="610" y="246" width="422" height="106" rx="24" fill="url(#line)" opacity=".92"/>
+  <text x="640" y="305" font-family="Inter, Arial" font-size="34" font-weight="900" fill="#111111">Care for parenthood</text>
+  <rect x="610" y="384" width="180" height="164" rx="22" fill="#232323" stroke="#3a3a3a"/>
+  <rect x="817" y="384" width="215" height="52" rx="18" fill="#232323" stroke="#3a3a3a"/>
+  <rect x="817" y="458" width="215" height="52" rx="18" fill="#232323" stroke="#3a3a3a"/>
+  <rect x="817" y="532" width="215" height="52" rx="18" fill="#232323" stroke="#3a3a3a"/>
+  <circle cx="700" cy="452" r="42" fill="#e8bf6a" opacity=".85"/>
+  <path d="M681 454h38M700 435v38" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <rect x="842" y="404" width="150" height="12" rx="6" fill="#ffffff" opacity=".7"/>
+  <rect x="842" y="480" width="132" height="12" rx="6" fill="#ffffff" opacity=".45"/>
+  <rect x="842" y="554" width="160" height="12" rx="6" fill="#ffffff" opacity=".35"/>
+  <path d="M610 650 C710 610, 800 690, 1030 638" fill="none" stroke="#e8bf6a" stroke-width="4" opacity=".85"/>
+</svg>
